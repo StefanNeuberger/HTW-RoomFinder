@@ -1,0 +1,2 @@
+wir koennen die raumsuche nd erzeugung von neuen Objekten bei dem Stundenplan umgehen in dem wir eine eindeutige id fuer die veranstaltungen anlegen. Das Programm berecnet sich einfach die id und schick eine anfrage an die datenbank.
+WIr koennen die ID so mache :TagAlsInt+Uhrzeit+Zug+LSFVeranstaltungId

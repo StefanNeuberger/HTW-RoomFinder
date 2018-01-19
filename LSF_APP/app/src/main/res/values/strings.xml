@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rooms</string>
+
+    <string name="SpinnerEntryCampus_TA">TA</string>
+    <string name="button_pick_end_time">Pick end time</string>
+    <string name="Button_typ">Typ</string>
+    <string name="Button_wochentag">Wochentag</string>
+    <string name="Button_semester">Semester</string>
+    <string name="Button_studiengang">Studiengang</string>
+    <string name="button_pick_start_time">Pick start time</string>
+    <string name="Button_find_me_a_lecture">Find me a Lecture</string>
+    <string name="button_pick_a_date">Pick a date</string>
+    <string name="button_pick_campus">Campus</string>
+    <string name="Button_find_me_a_room">Find me a room</string>
+</resources>

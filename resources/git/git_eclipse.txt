@@ -1,0 +1,31 @@
+~------------------CONFIGURE-&-IMPORT-REPO------------------~------------~
+1.###
+Configure git user 
+Window ▸ Preferences ▸ Team ▸ Git ▸
+Add Entries- add a user.name and an email address
+
+2.###
+Window->show View-> other-> git -> git repositories
+
+3.###in the git repositories menu-> add local git repository(find the MA_Proj repository and select it)
+
+4.###
+import project- File -> Import -> Git-> Projects from Git ->Local Repository
+NOTES: Wenn es dir sagt "project already in workspace" loesch einfach die alte version.
+
+---~~-------GIT-COMMANDS-IN-ECLIPSE---------~
+##Pull to update local files
+Right click on the repository in the Git repositories window and click "Pull"
+##Commit and Push
+Window -> Show View-> Other -> Git Staging(Shortcut CTRL+#)
+1.Right click on the files under "Unstaged changes" that you would like to add and click "add to Index"(git commandprompt equivalent git add <file_name>)
+2.Add a Commit Message
+3.Commit and Push
+###
+make git visible 
+ see Guide 6.4
+
+###
+12.2 adding a project to an existing git repo
+
+GUIDE  http://www.vogella.com/tutorials/EclipseGit/article.html#what-is-git-for-eclipse-egit

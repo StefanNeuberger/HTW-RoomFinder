@@ -1,0 +1,30 @@
+SO KOMMEN WIR AN WOCHENTAG, UHRZEIT, DATUM (beginn und ende) UND ART (Wöchentlich, gerade woche usw.)
+
+
+Elements element = d.select(".bgbrownblack");
+
+Ausgabe: (Hier muss man die Ergebnisse aussortieren welche nach "<td class="bgbrownblack" style="padding-left: 6px; border-top: 1px solid #CCCCCC;">" keinen wochentag haben
+
+<td class="bgbrownblack" style="padding-left: 6px; border-top: 1px solid #CCCCCC;"> Montag &nbsp;|&nbsp; 15:45 &nbsp;-&nbsp; 19:00&nbsp;|&nbsp; ger. W.&nbsp;|&nbsp; Beginn:&nbsp;17.10.2016&nbsp;|&nbsp; Ende:&nbsp;11.02.2017 </td>
+<td class="bgbrownblack" style="padding-left: 6px; border-top: 1px solid #CCCCCC;"> keine Angabe &nbsp;|&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp; </td>
+
+enthällt:
+
+- Wochentag
+- Uhrzeit von bis
+Datum Beginn und ende (DD.MM.YYYY)
+
+
+'''''#################################################################
+
+
+Für Raum.
+
+Suche nach Zeilen mit "<a href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&amp;search=3&amp;raum.rgid"
+
+z.B.  
+<a href="https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&amp;search=3&amp;raum.rgid=4563" hreflang="de" charset="ISO-8859-1" title="Mehr Informationen zu WH C 569 WH C 569" class="nav">
+
+
+
+Jetzt muss man noch einen Weg finden bei Veranstaltungen mit mehreren Zügen (z.B. https://lsf.htw-berlin.de/qisserver/rds?state=wsearchv&search=2&veranstaltung.veranstid=119033) jedem Zug den richtigen Raum zuzuweisen.

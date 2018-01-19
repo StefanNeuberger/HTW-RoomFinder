@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gui.MainActivity"
+    android:background="@drawable/backgroundhtw">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/htw_logo"
+        android:id="@+id/imageView"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:background="#00000000"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/Imagebutton_EmptyRoom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:onClick="onClickRoomSearch"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/empty_room" />
+
+        <ImageButton
+            android:id="@+id/Imagebutton_Vorlesung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="onClickLectureSearch"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/lecture" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textView_emptyRoom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center_horizontal"
+            android:text="Find empty room"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView_Vorlesung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center_horizontal"
+            android:text="Find lecture"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+

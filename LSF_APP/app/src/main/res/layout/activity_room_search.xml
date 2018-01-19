@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_room_search"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="s53324_s53849.lsf_app.gui.rooms.RoomSearchActivity"
+    android:background="@drawable/backgroundhtw">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_gravity="center_horizontal">
+
+        // CAMPUS
+        <Button
+            android:id="@+id/Button_campus"
+            android:background="@drawable/buttonshape"
+            android:text="@string/button_pick_campus"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"/>
+
+        // Date
+        <Button
+            android:id="@+id/Button_DatePicker"
+            android:text="@string/button_pick_a_date"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/Button_campus"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"/>
+
+        // START_TIME
+        <Button
+            android:id="@+id/Button_startTime"
+            android:text="@string/button_pick_start_time"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Button_campus"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp"/>
+
+        // END_TIME
+        <Button
+            android:id="@+id/Button_endTime"
+            android:text="@string/button_pick_end_time"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonshape"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Button_DatePicker"
+            android:layout_toRightOf="@id/Button_startTime"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"/>
+
+        <Button
+            android:id="@+id/Button_FindRoom"
+            android:text="@string/Button_find_me_a_room"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonshape"
+            android:layout_below="@id/Button_startTime"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="180dp"
+            android:onClick="onClickFindRoom" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

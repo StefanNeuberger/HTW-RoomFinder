@@ -1,0 +1,16 @@
+###Eine Datei wo wir hilfreiche git kommandos die wir finden aufschreiben koennen ###
+
+#shows the difference between the current state and the last commit
+git log -p -1
+#shows the difference between the current working directory and the brach on the server
+git diff
+# Edit the commit message of a not yet pushed commit
+git commit --amend
+# a history of git navigation commands
+git reflog 
+# reposition the head of local repo
+git reset HEAD~i 	    // i index
+git reset HEAD@{i}  // i index
+
+
+

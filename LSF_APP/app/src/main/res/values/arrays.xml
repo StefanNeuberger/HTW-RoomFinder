@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Campus_Spinner_Entries">
+        <item>Wähle Campus…</item>
+        <item>TA</item>
+        <item>WH</item>
+    </string-array>
+
+    <string-array name="Gebaeude_Spinner_Entries">
+        <item>"Wähle Gebäude…"</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+    </string-array>
+
+    <string-array name="SemesterVon_Spinner_Entries">
+        <item>Alle</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="Typ_Spinner_Entries">
+        <item>Alle</item>
+        <item>Ungerade Wochen</item>
+        <item>Gerade Wochen</item>
+        <item>Wöchentlich</item>
+    </string-array>
+
+    <string-array name="Wochentag_Spinner_Entries">
+        <item>Heute </item>
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+
+
+</resources>

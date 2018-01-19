@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lecture_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context="s53324_s53849.lsf_app.gui.lectures.LectureSearchActivity"
+    android:background="@drawable/backgroundhtw">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        //Studiengang
+        <Button
+            android:id="@+id/Button_selectStudiengang"
+            android:text="@string/Button_studiengang"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp" />
+
+        //Semester
+        <Button
+            android:id="@+id/Button_semester"
+            android:text="@string/Button_semester"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/Button_selectStudiengang"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"/>
+
+        //Wochentag
+        <Button
+            android:id="@+id/Button_wochentag"
+            android:text="@string/Button_wochentag"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Button_selectStudiengang"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"/>
+
+        //Typ
+        <Button
+            android:id="@+id/Button_typ"
+            android:text="@string/Button_typ"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/Button_wochentag"
+            android:layout_below="@id/Button_semester"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"/>
+
+        //StartTime
+        <Button
+            android:id="@+id/Button_startTimeLectureSearch"
+            android:text="@string/button_pick_start_time"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Button_wochentag"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"/>
+
+        //EndTime
+        <Button
+            android:id="@+id/Button_endTimeLectureSearch"
+            android:text="@string/button_pick_end_time"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/Button_startTimeLectureSearch"
+            android:layout_below="@id/Button_typ"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"/>
+
+        //Find Lecture
+        <Button
+            android:id="@+id/Button_findLecture"
+            android:text="@string/Button_find_me_a_lecture"
+            android:background="@drawable/buttonshape"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/Button_startTimeLectureSearch"
+            android:layout_width="305dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:onClick="onClickFindLecture"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
